@@ -25,7 +25,7 @@ Requires:	php-horde-Horde_Mime < 2.0.0
 Requires:	php-horde-Horde_Translation < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-json
-Requires:	php-pear
+Requires:	php-pear >= 4:1.3.6-2
 Suggests:	php-horde-Horde_Db
 Suggests:	php-horde-Horde_Image
 Suggests:	php-horde-Horde_Imsp
