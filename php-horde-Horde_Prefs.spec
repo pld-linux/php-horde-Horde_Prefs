@@ -12,7 +12,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	bf4c7e5b9f7365f7ddcc5165b47de5c7
-URL:		http://pear.horde.org/package/Horde_Prefs/
+URL:		https://github.com/horde/horde/tree/master/framework/Prefs/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
