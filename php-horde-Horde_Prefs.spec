@@ -6,16 +6,15 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Preferences API
 Name:		php-horde-Horde_Prefs
-Version:	1.0.0
+Version:	1.1.3
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	bf4c7e5b9f7365f7ddcc5165b47de5c7
+# Source0-md5:	c4042909e28d7972c2700a7702b4c0db
 URL:		https://github.com/horde/horde/tree/master/framework/Prefs/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
-BuildRequires:	php-pear-PEAR
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
@@ -26,9 +25,11 @@ Requires:	php-horde-Horde_Translation < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-json
 Requires:	php-pear >= 4:1.3.6-2
+Suggests:	php-horde-Horde_Autoloader
 Suggests:	php-horde-Horde_Db
 Suggests:	php-horde-Horde_Image
 Suggests:	php-horde-Horde_Imsp
+Suggests:	php-horde-Horde_Kolab_Storage
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
