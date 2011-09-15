@@ -6,12 +6,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Preferences API
 Name:		php-horde-Horde_Prefs
-Version:	1.1.3
+Version:	1.1.4
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	c4042909e28d7972c2700a7702b4c0db
+# Source0-md5:	d1b18ca213780bfe3ba9ad6e8a385184
 URL:		https://github.com/horde/horde/tree/master/framework/Prefs/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
