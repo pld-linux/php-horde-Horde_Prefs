@@ -3,7 +3,6 @@
 # - fix missing pear(Horde/Kolab.php)
 %define		status		stable
 %define		pearname	Horde_Prefs
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Preferences API
 Name:		php-horde-Horde_Prefs
 Version:	1.1.8
