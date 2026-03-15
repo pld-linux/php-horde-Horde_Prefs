@@ -6,7 +6,7 @@
 Summary:	%{pearname} - Horde Preferences API
 Name:		php-horde-Horde_Prefs
 Version:	1.1.8
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
